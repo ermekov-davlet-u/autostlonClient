@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export function Header (){
@@ -6,9 +7,11 @@ export function Header (){
             <header className="header">
                 <div className="container">
                 <div className="header__top">
-                    <a href="#" className="logo">
-                    <img className="logo__img" src="images/logo.svg" alt="logo" />
-                    </a>
+                    <Link href={"/car"}>
+                        <a className="logo">
+                            <img className="logo__img" src="images/logo.svg" alt="logo" />
+                        </a>
+                    </Link>
                     <a href="+380505556677" className="phone">+38 (050) 555 66 77</a>
                 </div>
                 <div className="header__content">

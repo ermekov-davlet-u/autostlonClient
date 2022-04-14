@@ -1,0 +1,77 @@
+$bgc: #e5efef;
+
+
+.rowInp{
+    background-color: #fff;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowInp_titpe_wrap{
+    color: rgb(48, 48, 48);
+    font-size: 14px;
+    text-shadow: .1px .2px black;
+    letter-spacing: 2px;
+}
+.rowInp_titpe_text{
+    font-weight: 700;
+    color: #090909;
+    cursor: default;
+}
+
+.rowinp_wrap{
+    max-width: 300px;
+    min-width: 280px;
+}
+
+.rowinp_inp{
+    width: 100%;
+    padding: 12px 28px 12px 6px;
+    border: none;
+    background-color: $bgc;
+    border-radius: 4px;
+    font-size: 12px;
+    color: rgb(68, 68, 68);
+}
+
+.rowinp_block{
+    position: relative;
+}
+.rowinp_icon_wrap{
+    position: absolute;
+    top: 5px;
+    right: 6px;
+}
+
+.button{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.button_container{
+    position: relative;
+    width: auto;
+}
+
+.button_icon{
+    position: absolute;
+    top: 0px;
+    right: 6px;
+    transform: rotate(180deg);
+}
+
+
+.button_elem{
+    padding: 8px 38px 8px 23px;
+    border: none;
+    background-color: #07cba0;
+    cursor: pointer;
+
+}
+
+

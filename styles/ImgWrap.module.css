@@ -1,0 +1,34 @@
+
+.img{
+    position: relative;
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 2px 1px 5px black;
+}
+
+.img_logo{
+    position: absolute;
+    z-index: 400;
+    left: 4px;
+    top: 10px;
+    cursor: default;
+}
+
+.img_title{
+    font-size: 24px;
+    color: rgb(26, 26, 26);
+    margin-bottom: 14px;
+    cursor: default;
+}
+.img_desc{
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 80%;
+}
+.container{
+    width: 500px;
+    height: auto;  
+    margin: 0 auto;
+}

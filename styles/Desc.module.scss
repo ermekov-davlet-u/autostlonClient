@@ -1,0 +1,28 @@
+.descline{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    margin-top: 12px;
+    cursor: pointer;
+    padding: 6px 0;
+    margin-left: 12px;
+}
+
+.descline_title_wrap{
+    width: 220px;
+    margin-right: 60px;
+}
+.descline_text_wrap{
+    width: 300px;
+}
+
+.bigdesc{
+    max-width: 1280px;
+    margin: 120px auto;
+}
+
+.bigdesc_title{
+    margin-bottom: 42px;
+    font-size: 32px;
+}
